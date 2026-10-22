@@ -36,3 +36,9 @@
 - 2026-09-18: Local build/check passed for 36 HTML files and 34 indexable routes. Local route QA returned HTTP 200 for every sitemap route and four required assets, with HTTP 404 for an unknown route.
 - 2026-09-18: Created public repository `MCYJ/industrial-safety-engineer-exam-prep-web`. The first deployment run `35359090141` failed only because Pages was not yet enabled; Pages was then enabled with GitHub Actions as the build source.
 - 2026-09-18: GitHub Pages deployment run `35359133328` passed. Production QA returned HTTP 200 for all 34 sitemap routes and four required assets, HTTP 404 for a missing route, confirmed deployed `word-break: keep-all` and shared Store badge frames, Google Play HTTP 200, and Apple lookup result count 1 with exact track ID `6797288640` and bundle ID `app.mcyj.examprep.kor0048`.
+
+## 2026-10-23 — SEO technical improvements
+
+- Added dependency-free post-build SEO validation and enhancement: valid reciprocal language alternates, page-preserving language switching, source-backed Article identities/citations, BreadcrumbList, social text metadata, noindex on the utility 404, and priority for existing above-fold app imagery.
+- Removed unverified structured-data offers where present. Preserved existing official-source verification dates, visible study content, app artwork, keep-all and equal marketplace badge frames.
+- Public repository instructions were treated only as methodology; no external skill, tool, tracking, account connection, or scheduled action was installed.
